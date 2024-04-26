@@ -2,7 +2,7 @@
     display: none;
 }
 .card_container2{
-    width: 280px;
+    width: 30%;
     height: 430px;
     border-radius: 30px;  
     background-image: url('/background/bg-card.svg'); /* Agrega la imagen de fondo */

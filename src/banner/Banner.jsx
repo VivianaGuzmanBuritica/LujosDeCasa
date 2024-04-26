@@ -8,12 +8,13 @@ const Banner = () => {
     <section id="banner" className='banner'>
         <div className='banner_contain'> 
             <img className="logo" src="/logos/logo_LujosDeCasa.png" alt="logo-lujos-img" />
-            {/* <h2 className='banner_containTex1'>         
-                {language === 'es' ?  ' Estimado de rendimiento  asistido por IA' : 'AI-assisted coffee yield estimation' }
-            </h2> */}
+        
         </div>
+          <h2 className='banner_containTex1'>         
+                {language === 'es' ?  '"La calidad y versatilidad de cada una de nuestras líneas harán la diferencia de elegancia en todo tipo de ambiente"' : '"The quality and versatility of each of our lines will make the difference in elegance in any type of environment."' }
+          </h2>
         <button className='banner_button'>
-            <a href='https://play.google.com/store/search?q=croppie&c=apps' target='_black'>   {language === 'es' ?  'Descargar App' : 'Download App' }</a> 
+            <a href='https://play.google.com/store/search?q=croppie&c=apps' target='_black'>   {language === 'es' ?  'Ver Productos' : 'Products' }</a> 
         </button>
         
     </section>

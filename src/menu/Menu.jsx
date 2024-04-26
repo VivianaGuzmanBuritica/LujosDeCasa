@@ -76,9 +76,9 @@ function Menu() {
         </li>
         <li>
           <a
-            href="#where-we-are"
-            className={activeSection === 'where-we-are' ? 'active' : ''}
-            onClick={() => handleLinkClick('where-we-are')}
+            href="#sponsors"
+            className={activeSection === 'sponsors' ? 'active' : ''}
+            onClick={() => handleLinkClick('sponsors')}
           >
             {language === 'en' ? 'Clients' : 'Clientes'}
           </a>
@@ -112,12 +112,12 @@ function Menu() {
               </a>
             </li>
             <li>
-              <a href="#about-us" onClick={() => handleLinkClick('about-us')}>
+              <a href="about-us" onClick={() => handleLinkClick('about-us')}>
                 {language === 'en' ? 'About us' : 'Quienes somos'}
               </a>
             </li>
             <li>
-              <a href="#where-we-are" onClick={() => handleLinkClick('where-we-are')}>
+              <a href="#sponsors" onClick={() => handleLinkClick('sponsors')}>
                 {language === 'en' ? 'Clients' : 'Clientes'}
               </a>
             </li>

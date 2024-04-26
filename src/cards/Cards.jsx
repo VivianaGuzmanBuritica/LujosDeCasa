@@ -16,22 +16,24 @@ const Cards = () => {
   return (
     <section id= "cards" className='containerSection'>
     <h3 className='titleSection'>
-    {language === 'es' ?  'Estimado de rendimiento asistido por IA' : 'AI-assisted coffee yield estimation' }
+    {language === 'es' ?  'Catálogo de productos' : 'Product Catalog' }
     
     </h3>
-    
+   
     
     
     <div className='cards_container'>
       <Card />
-      <Card2 />
+      {/* <Card2 /> */}
       <Card3 />
       <Card4 />
-      <Card5 />
-
-    
+      {/* <Card4 />
+      <Card5 /> */}
 
     </div>
+    <p className='pSection'>
+    {language === 'es' ?  'INDIVIDUALES - MANTELES Y SERVILLETAS -  FORROS SPANDEX - CAMINOS DE MESA - TAPAS - BANDEJEROS - PORTAVASOS - SOBRES PARA CUBIERTOS' : 'PLACEMATS - TABLECLOTHS AND NAPKINS - SPANDEX COVERS - TABLE RUNNERS - LIDS - TRAYS - COASTERS - CUTLERY ENVELOPES' }
+    </p>
     </section>
   )
 }

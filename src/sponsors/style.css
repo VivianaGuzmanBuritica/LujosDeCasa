@@ -7,17 +7,20 @@
    
 }
 .containerAbou h2{
+    justify-content: center;
     color: #555555;
     font-size: 40px;
     align-items: center;    
 }
 .containerAbou .sectionSponsors {    
-    display: flex;
+    display: block;
     justify-content: space-between;
    
 }
 .containerAbou  .sectionSponsors article{
     display: flex;
+    height: 150px;
+    width: 250px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -39,6 +42,16 @@
     justify-content: center;  
 
 }
+
+.sectionSponsors .titleSections{
+    border: solid red 1px;
+ 
+}
+
+.clientes{
+    display: flex;
+}
+
 @media (max-width: 767px) {
     .sectionSponsors{
         flex-wrap: wrap;

@@ -1,6 +1,6 @@
 
 .card_container{
-    width: 200px;
+    width: 30%;
     height: 410px;
     border-radius: 30px;  
     background-image: url('/background/bg-card.svg'); /* Agrega la imagen de fondo */

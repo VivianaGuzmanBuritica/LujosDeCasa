@@ -16,7 +16,7 @@ function App() {
     <Cards />
     <AboutUs />
     <Sponsors />   
-    <WhereWeAre />
+    {/* <WhereWeAre /> */}
     <News />
     <Footer />
     </>

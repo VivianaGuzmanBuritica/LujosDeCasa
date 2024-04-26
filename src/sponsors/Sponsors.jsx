@@ -5,34 +5,91 @@ import { useLanguage } from '../LanguageContext';
 const Sponsors = () => {
   const { language } = useLanguage();
   return (
-    <div className='containerAbou'>      
-      <h2>{language === 'es' ?  'Financiadores' : 'Sponsors' }</h2> 
-        <section className='sectionSponsors' >
+    <div  id="sponsors" className='containerAbou'>
+     
+        <section  className='sectionSponsors' >
+        <div className='titleSections'>
+          <h2>{language === 'es' ?  'Clientes Satisfechos' : 'Happy Clients' }</h2> 
+        </div>
+        <div className='clientes'>
+           <div>
+            <article>
+              <div className='img-logo-sp'>
+              <img src="/clientes/colsubsidio.png" alt="logo-colsubsidio" />
+              </div> 
+            </article>
+            <article>
+              <div className='img-logo-sp'>
+              <img src="/clientes/decameron.png" alt="logo-decameron" />
+              </div>
+            </article> 
+            <article>
+              <div className='img-logo-sp'>
+              <img src="/clientes/estelar.png" alt="logo-estelar" />
+              </div> 
+            </article>
+          </div>
+
+          <div>
+            <article>
+              <div className='img-logo-sp'>
+              <img className='img-producers' src="/clientes/ghl.png" alt="logo-ghl"/>
+              </div>
+            </article>
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/oxo.png" alt="logo-oxo" />
+              </div> 
+            </article>
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/camaraComercio.png" alt="logo-cc" />
+              </div> 
+            </article>
+          </div>
+
+          <div>
           <article>
-            <div className='img-logo-sp'>
-              <a href="https://bigdata.cgiar.org/" target="_blank"><img src="/logos/logoCgiarBigData.png" alt="logo-cgiar-bigdata" /></a>
-            </div> 
-          </article>
-          <article>
-            <div className='img-logo-sp'>
-              <a href="https://www.giz.de/en/html/index.html" target="_blank"><img src="/logos/logoGizForward.svg" alt="logo-giz-fair-fordward" /></a>
-            </div>
-          </article> 
-          <article>
-            <div className='img-logo-sp'>
-              <a href="https://www.giz.de/en/html/index.html"target="_blank"><img src="/logos/logoGizI4Ga.svg" alt="logo-giz-i4ga" /></a>
-            </div> 
-          </article>
-          <article>
-            <div className='img-logo-sp'>
-              <a href="https://www.iadb.org/es" target="_blank"><img className='img-producers' src="/logos/logoIDB.png" alt="logo-producers-direct"/></a>
-            </div>
-          </article>
-          <article>
-            <div className='img-logo-sp'>
-              <a href="https://eia.cgiar.org/" target="_blank"><img src="/logos/logoEiA.png" alt="logo-eia" /></a>
-            </div> 
-          </article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/wyndhan.png" alt="logo-wyndhan" />
+              </div> 
+            </article>
+            {/* <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/ermita-cartagena.png" alt="logo-ermita" />
+              </div> 
+            </article> */}
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/inter.png" alt="logo-inter" />
+              </div> 
+            </article>
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/logo-club-campestre.png" alt="logo-club-campestre" />
+              </div> 
+            </article>
+          </div>
+
+          <div>            
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/radisson-logo-1.png" alt="logo-radisson" />
+              </div> 
+            </article>
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/solar.png" alt="logo-solar" />
+              </div> 
+            </article>
+            <article>
+              <div className='img-logo-sp'>
+            <img src="/clientes/valleDelPacifico.png" alt="logo-valleDelPacifico" />
+              </div> 
+            </article>
+           
+          </div>
+        </div>
       </section>    
     </div>
   )

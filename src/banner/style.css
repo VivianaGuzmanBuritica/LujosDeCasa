@@ -24,10 +24,14 @@
     left: 10%;
     top:30%;
     /* right:40%; */
-    font-size: 51px; 
-    color: #fff;
-    width: 60%;
-    text-align: start;
+    margin-top: 8%;
+    margin-right: 8%;
+    font-family: serif;
+    font-weight: 100;
+    font-size: 28px; 
+    color:#747070;
+    width: 50%;
+    text-align: center;
 }
 .banner_containTex2{ 
     font-size: 21px; 
@@ -38,15 +42,15 @@
 }
 .banner_button{
     position: absolute;
-    right:5%;
-    background-color: #FEFEFF;
-    color: #555555;
+    right: 5%;
+    top: 20%;  
+    background-color: #E1C763;
+    color: #fff;
     padding: 25px 50px;
     font-size: 16px;
-    border-radius: 15px;
-    text-transform: uppercase;
+    border-radius: 10px;
     letter-spacing: 2px;
-    border: 2px solid rgb(26, 38, 26);
+    border: none;
     cursor: pointer;
 }
 
@@ -62,7 +66,8 @@
     padding-bottom: 20%;
   }
 
-  }
+  
+
   .banner_containTex1{
     /* visibility: hidden; */
     display: none;
@@ -78,10 +83,11 @@
     font-size: 28px; 
     width: 100%;
   }
+
 /*   
   .banner_contain{
     margin-top: 20%;
     margin-bottom: 10%;
   } */
 
-
+}
