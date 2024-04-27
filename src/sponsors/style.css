@@ -6,13 +6,22 @@
     margin: 0px 0 ; 
    
 }
-.containerAbou h2{
+
+.titleSection{
+    font-family: serif;
+    font-weight: 100;
+    color: #747070;
+    font-size: 38spx;
+    letter-spacing: 4px;
+    
+}
+/* .containerAbou h2{
     justify-content: center;
     color: #747070;
     font-size: 40px;
     align-items: center; 
     margin-bottom: 50px;   
-}
+} */
 .containerAbou .sectionSponsors {    
     display: block;
     justify-content: space-between;
@@ -44,8 +53,12 @@
 
 }
 
-.sectionSponsors .titleSection{
-    border: solid red 1px;
+.titleSection{
+    font-family: serif;
+    font-weight: 100;
+    color: #747070;
+    font-size: 38px;
+    letter-spacing: 4px;
  
 }
 

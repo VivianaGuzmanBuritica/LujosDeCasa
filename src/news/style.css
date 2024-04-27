@@ -11,11 +11,12 @@
 
     
 }
-/* .containerNews .titleSections{
+.containerNews .titleSections{
+    border:1px solid red;
     color: #555555;
     font-size: 40px;
     
-} */
+}
 .contaiNews{
     /* background-image: url('/background/BannerImage.svg'); */
     background-repeat: no-repeat;
