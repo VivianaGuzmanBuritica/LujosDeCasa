@@ -6,7 +6,7 @@ const News = () => {
     const { language } = useLanguage();
     return (
         <section id='contact' className='containerNews'>
-        <h2> {language === 'es' ?  'Noticias y actualizaciones' : 'News and updates' }</h2>
+        <h3 className='titleSection'> {language === 'es' ?  'Contáctanos' : 'Contact' }</h3>
         <div className='contaiNews'>
             <div>
                 <h3>App CROPPIE </h3>

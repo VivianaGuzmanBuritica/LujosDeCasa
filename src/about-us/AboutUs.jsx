@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <section id="about-us" className='containerAbout'>
       
-    <h2> {language === 'es' ?  'Quiénes somos' : ' About us' }</h2> 
+    <h3 className='titleSection'> {language === 'es' ?  'Quiénes somos' : ' About us' }</h3> 
     <section className='articles' >
       <article>
         <div className='img-logo'>

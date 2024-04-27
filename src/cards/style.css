@@ -9,8 +9,11 @@
     width: 90%;
 }
 .titleSection{
-    color: #555555;
-    font-size: 28px;
+    font-family: serif;
+    font-weight: 100;
+    color: #747070;
+    font-size: 38spx;
+    letter-spacing: 4px;
     
 }
 .pSection{    

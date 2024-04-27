@@ -14,7 +14,7 @@ const Banner = () => {
                 {language === 'es' ?  '"La calidad y versatilidad de cada una de nuestras líneas harán la diferencia de elegancia en todo tipo de ambiente"' : '"The quality and versatility of each of our lines will make the difference in elegance in any type of environment."' }
           </h2>
         <button className='banner_button'>
-            <a href='https://play.google.com/store/search?q=croppie&c=apps' target='_black'>   {language === 'es' ?  'Ver Productos' : 'Products' }</a> 
+            <a href='https://linktr.ee/LujosDeCasa' target='_black'>   {language === 'es' ?  'Ver Brochure' : ' View Brochure' }</a> 
         </button>
         
     </section>

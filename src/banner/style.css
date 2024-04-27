@@ -2,7 +2,7 @@
     background-image: url('/background/background.png');
     background-repeat: no-repeat;
     background-position: center; 
-    background-size: 100% auto;
+    background-size: 150% auto;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -59,14 +59,12 @@
 @media (max-width: 767px) {
 
   .banner{
-    background-image: url('/background/BannerImgMobil.svg');
+    background-image: url('/background/background.png');
     height: auto;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 20%;
   }
-
-  
 
   .banner_containTex1{
     /* visibility: hidden; */
@@ -84,10 +82,13 @@
     width: 100%;
   }
 
-/*   
-  .banner_contain{
+  .banner_contain .logo{
+    margin-top: 30px;
+    width: 100%;
+  }
+    .banner_contain{
     margin-top: 20%;
     margin-bottom: 10%;
-  } */
+  }
 
 }
